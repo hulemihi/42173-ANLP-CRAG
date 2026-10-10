@@ -12,7 +12,7 @@ from crag.web_search import rewrite_query, web_search
 
 def run_rag(question, index, gen_model, gen_tokenizer, k=5):
     """
-    Plain RAG baseline: retrieve top-k and generate. Returns the answer label.
+    Plain RAG baseline: retrieve top-k and generate. Returns a GeneratorOutput (use .label for scoring).
     """
     passages = retrieve(index, question, k=k)
     return generate_answer(gen_model, gen_tokenizer, question, passages)
@@ -20,7 +20,7 @@ def run_rag(question, index, gen_model, gen_tokenizer, k=5):
 
 def run_crag(question, index, eval_model, eval_tokenizer, gen_model, gen_tokenizer, k=5):
     """
-    Full CRAG. Returns (answer, action).
+    Full CRAG. Returns (GeneratorOutput, action).
     """
     passages = retrieve(index, question, k=k)
     scores = [evaluate_relevance(eval_model, eval_tokenizer, question, p) for p in passages]
