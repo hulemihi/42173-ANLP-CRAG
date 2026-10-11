@@ -185,7 +185,7 @@ def _select_evidence(model, tokenizer, task, question, passages, label, k=N_EVID
 
 
 @torch.no_grad()
-def _generate(model, tokenizer, message, max_new_tokens):
+def _generate_text(model, tokenizer, message, max_new_tokens):
     """
     Greedy-decode the model's reply to a single user message.
     """
@@ -204,7 +204,7 @@ def _generate_reasoning(model, tokenizer, task, question, evidence, label):
     else:
         message = (f"{task.input_name}: {question}\n\n"
                    f"{verdict} Explain why in one or two sentences.")
-    reasoning = _generate(model, tokenizer, message, max_new_tokens=100)
+    reasoning = _generate_text(model, tokenizer, message, max_new_tokens=100)
 
     # The opening sentence already states the answer, so drop a leading "Yes," / "False." etc.
     reasoning = re.sub(rf"^({'|'.join(task.labels)})\b[\s,.:;!-]*", "", reasoning, flags=re.IGNORECASE)
@@ -238,7 +238,7 @@ def _compose_response(task, label, confidence, evidence, reasoning):
     return "\n\n".join(parts)
 
 
-def generate_answer(model, tokenizer, question, passages, task=DEFAULT_TASK, explain=True):
+def predict_label(model, tokenizer, question, passages, task=DEFAULT_TASK, explain=True):
     """
     Answer the question (or label the claim) given passages (list[str]; may be empty for no-retrieval).
     Returns a GeneratorOutput with label, probs, evidence, reasoning and a natural response.
@@ -283,10 +283,10 @@ def _tidy_answer(answer):
     return answer[:1].upper() + answer[1:]
 
 
-def answer_question(model, tokenizer, question, passages, max_new_tokens=250):
+def answer_freeform(model, tokenizer, question, passages, max_new_tokens=250):
     """
     Free-form answer to a user's question from passages (list[str]; may be empty) -- for demos.
-    Accuracy on PubHealth is measured with generate_answer, which needs a fixed label set.
+    Accuracy on PubHealth is measured with predict_label, which needs a fixed label set.
     """
     passages = [p for p in passages if p and p.strip()]
     if passages:
@@ -301,7 +301,7 @@ def answer_question(model, tokenizer, question, passages, max_new_tokens=250):
     else:
         message = (f"A member of the public asked the question below. Answer them directly and naturally "
                    f"in at most 4 sentences.\n\nQuestion: {question}")
-    answer = _tidy_answer(_generate(model, tokenizer, message, max_new_tokens))
+    answer = _tidy_answer(_generate_text(model, tokenizer, message, max_new_tokens))
 
     parts = [answer]
     if passages:
