@@ -4,7 +4,7 @@ End-to-end CRAG: retrieve -> evaluate -> decide action -> refine / web search ->
 
 from crag import actions
 from crag.evaluator import evaluate_relevance
-from crag.generator import generate_answer
+from crag.generator import PUBMEDQA, predict_label
 from crag.refinement import refine
 from crag.retriever import retrieve
 from crag.web_search import rewrite_query, web_search
@@ -15,7 +15,7 @@ def run_rag(question, index, gen_model, gen_tokenizer, k=5):
     Plain RAG baseline: retrieve top-k and generate. Returns the answer label.
     """
     passages = retrieve(index, question, k=k)
-    return generate_answer(gen_model, gen_tokenizer, question, passages)
+    return predict_label(gen_model, gen_tokenizer, question, passages, task=PUBMEDQA, explain=False).label
 
 
 def run_crag(question, index, eval_model, eval_tokenizer, gen_model, gen_tokenizer, k=5):
@@ -36,4 +36,5 @@ def run_crag(question, index, eval_model, eval_tokenizer, gen_model, gen_tokeniz
     else:
         knowledge = refine(question, passages, score_fn) + web_search(rewrite_query(question))
 
-    return generate_answer(gen_model, gen_tokenizer, question, knowledge), action
+    answer = predict_label(gen_model, gen_tokenizer, question, knowledge, task=PUBMEDQA, explain=False).label
+    return answer, action

@@ -17,7 +17,7 @@ def split_into_strips(text, sentences_per_strip=2):
     return [" ".join(sents[i:i+sentences_per_strip])
             for i in range(0, len(sents), sentences_per_strip) if sents[i:i+sentences_per_strip]]
 
-def refine(question, passages, score_fn, threshold=-0.5, sentences_per_strip=2, top_k=5):
+def refine(question, passages, score_fn, threshold=0.0, sentences_per_strip=2, top_k=5):
     """
     Return the top-k relevant knowledge strips in their original order.
     """

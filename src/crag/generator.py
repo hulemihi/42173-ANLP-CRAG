@@ -259,13 +259,6 @@ def predict_label(model, tokenizer, question, passages, task=DEFAULT_TASK, expla
     return GeneratorOutput(label=label, probs=probs, evidence=evidence, reasoning=reasoning, response=response)
 
 
-def generate_answer(model, tokenizer, question, passages):
-    """
-    Return a PubMedQA label for the existing RAG pipeline.
-    """
-    return predict_label(model, tokenizer, question, passages, task=PUBMEDQA, explain=False).label
-
-
 @dataclass
 class QAOutput:
     answer: str                                   # free-form answer, cites passages as [1], [2], ...
