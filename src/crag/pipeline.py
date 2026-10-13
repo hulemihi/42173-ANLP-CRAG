@@ -49,7 +49,7 @@ def check_crag_ready():
     return problems
 
 
-def correct_knowledge(question, passages, eval_model, eval_tokenizer):
+def correct_knowledge(question, passages, eval_model, eval_tokenizer, gen_model=None, gen_tokenizer=None):
     """
     CRAG's correction step: score the retrieved passages, pick an action, and build the knowledge to generate from.
     Returns (knowledge, action, scores), where knowledge is a list[str].
@@ -63,9 +63,11 @@ def correct_knowledge(question, passages, eval_model, eval_tokenizer):
     if action == actions.CORRECT:
         knowledge = refine(question, passages, score_fn)
     elif action == actions.INCORRECT:
-        knowledge = web_search(rewrite_query(question))
+        query = rewrite_query(question, model=gen_model, tokenizer=gen_tokenizer)
+        knowledge = web_search(query)
     else:
-        knowledge = refine(question, passages, score_fn) + web_search(rewrite_query(question))
+        query = rewrite_query(question, model=gen_model, tokenizer=gen_tokenizer)
+        knowledge = refine(question, passages, score_fn) + web_search(query)
     return knowledge, action, scores
 
 
@@ -75,7 +77,8 @@ def run_crag(question, index, eval_model, eval_tokenizer, gen_model, gen_tokeniz
     Full CRAG: retrieve top-k, correct the knowledge, and generate. Returns (GeneratorOutput, action).
     """
     passages = retrieve(index, question, k=k)
-    knowledge, action, _ = correct_knowledge(question, passages, eval_model, eval_tokenizer)
+    knowledge, action, _ = correct_knowledge(question, passages, eval_model, eval_tokenizer,
+                                             gen_model=gen_model, gen_tokenizer=gen_tokenizer)
     return predict_label(gen_model, gen_tokenizer, question, knowledge, task=task, explain=explain), action
 
 
@@ -93,5 +96,6 @@ def ask_crag(question, index, eval_model, eval_tokenizer, gen_model, gen_tokeniz
     Returns (QAOutput, action, scores).
     """
     passages = retrieve(index, question, k=k)
-    knowledge, action, scores = correct_knowledge(question, passages, eval_model, eval_tokenizer)
+    knowledge, action, scores = correct_knowledge(question, passages, eval_model, eval_tokenizer,
+                                                  gen_model=gen_model, gen_tokenizer=gen_tokenizer)
     return answer_freeform(gen_model, gen_tokenizer, question, knowledge), action, scores

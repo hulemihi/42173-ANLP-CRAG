@@ -152,6 +152,7 @@ activemq-data/
 # Environments
 .env
 .envrc
+indexes/web_search_cache.json
 .venv
 env/
 venv/

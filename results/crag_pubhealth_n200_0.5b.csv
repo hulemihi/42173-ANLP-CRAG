@@ -1,0 +1,201 @@
+claim,gold,no_retrieval,no_retrieval_p_true,rag,rag_p_true,crag,crag_p_true,crag_action
+"U.S. President Donald Trump tweeted in November 2009 that ""Obama's handling of this whole pandemic has been terrible!"" and that he ""would never let thousands of Americans die from a pandemic while in office.",false,false,0.1417,false,0.0681,false,0.1008,ambiguous
+An habitual alcohol abuser lost his penis to frostbite after a drunken sexual encounter with a snowman.,false,false,0.0222,false,0.0643,false,0.0213,correct
+"Liberals"" want to change the name of Cracker Barrel to ""Caucasian Barrel"" because otherwise it's racist.",false,false,0.0246,false,0.0189,false,0.021,incorrect
+"The IRS is going to be ""in charge"" of ""a huge national database"" on health care that will include Americans’ ""personal, intimate, most close-to-the-vest-secrets.",false,false,0.0126,false,0.0361,false,0.3178,ambiguous
+A video shows a man demonstrating an invisibility cloak.,false,false,0.4144,false,0.0293,false,0.191,incorrect
+"San Antonio has seen ""67% growth"" in water customers ""in the last 25 years, 0% more water used.",false,false,0.0176,false,0.0285,false,0.0822,incorrect
+"A driver in Las Vegas shouted ""Allahu Akbar"" as she deliberately struck multiple pedestrians with her vehicle, and police have been instructed to suppress that detail of the story.",false,false,0.0262,false,0.0293,false,0.0545,incorrect
+NASA and NOAA faked climate data in the GISTEMP global temperature record to exaggerate global warming. ,false,false,0.0098,false,0.014,false,0.2161,ambiguous
+Cortisol levels in children's hair may reveal future mental health risk,false,true,0.6157,true,0.7625,false,0.2187,correct
+"According to (Barack) Obama’s newest unconstitutionally enacted law, health care professionals are now required to violate HIPAA privacy laws and submit medical data to the government,"" which is ""then used as justification for gun confiscation.",false,false,0.017,false,0.0359,false,0.0174,ambiguous
+"Here in Florida, I’ve slashed government by 10 percent. That's $7 billion.",false,false,0.086,false,0.0378,false,0.0588,incorrect
+Roe v. Wade was passed only because Roe lied about being raped.,false,false,0.0132,false,0.025,false,0.0211,correct
+"Five-minute neck scan can spot dementia 10 years earlier, say scientists",false,false,0.1796,false,0.062,false,0.0276,correct
+"Johns Hopkins Hospital issued a ""cancer update"" detailing how cancer spreads and recommending methods for treating the disease.",false,false,0.3851,false,0.0596,false,0.4237,incorrect
+"A nurse employed in a Zambian hospital swapped nearly 5,000 babies at birth and gave them to the ""wrong"" parents.",false,false,0.0277,false,0.0372,false,0.0563,ambiguous
+Aspirin Linked to Lower Pancreatic Cancer Risk,false,false,0.3059,false,0.0974,false,0.0264,correct
+" A forwarded email that blames President Obama   for delays in the rescue of Richard Phillips, the captain of the ship   named the Maersk Alabama, which was taken over by pirates off the coast   of the African country of Somalia. It claims that Obama delayed the   deployment of Navy Seals by 36 hours and limited the rules of engagement   so the rescuers could not act unless Captain Phillips’ life was imminent   danger.      ",false,false,0.3838,false,0.0999,false,0.1081,incorrect
+"This town (Wilmington, Ohio) hasn’t taken any money from the government. They don’t want any money from the government.",false,false,0.1676,false,0.0774,false,0.0517,correct
+ A warning about a chemical   called benzene that is linked to cancer such as leukemia .  The   warning says that benzene can build up inside parked automobiles and   suggests that drivers roll down   their windows to ventilate the car’s interior prior to switching on   the air conditioner.      ,false,false,0.0752,false,0.062,false,0.0338,correct
+A mother revealed to her child in a letter after her death that she had just one eye because she had donated the other to him.,false,false,0.0916,false,0.0523,false,0.113,ambiguous
+Researchers produce first widely protective vaccine against chlamydia,false,false,0.1154,false,0.1425,false,0.1005,correct
+"Rick Perry Says President Barack Obama’s overturning of the Mexico City Policy means federal tax dollars can be used ""to fund abortion all over the world.",false,false,0.0037,false,0.0158,false,0.0225,ambiguous
+Partial rather than full knee replacements better for many – report,false,false,0.2492,false,0.0905,false,0.088,correct
+Development of a wearable medical device for type 2 diabetes,false,false,0.1193,false,0.1839,false,0.4121,correct
+"  Former Navy SEAL Chris Kyle, the author of “American Sniper,” shot   looters in New Orleans after Hurricane Katrina, shot two carjackers in   Texas, and punched Jesse Ventura in the face.     ",false,false,0.0403,false,0.028,false,0.03,ambiguous
+"The Baucus health care bill ""could be used to ban guns in home self-defense.",false,false,0.0064,false,0.0133,false,0.0128,incorrect
+"Maj. Nidal Hasan, the man accused of the Fort Hood shootings, ""was an ADVISOR to the Obama Administration.",false,false,0.0122,false,0.0237,false,0.0461,incorrect
+A recent invasion of New Guinea Flatworms in Florida poses a significant risk to human health and a sighting of this non-native animal should be reported to authorities by calling 911.,false,false,0.0324,false,0.0378,false,0.4839,incorrect
+"Hillary Clinton threw a tantrum, and a water glass, after NBC's ""Commander-in-Chief"" Forum in September 2016.",false,false,0.0195,false,0.0163,false,0.2795,incorrect
+"“If you look at the one (hydroxychloroquine) survey, the only bad survey, they were giving it to people that were in very bad shape. They were very old. Almost dead.”",false,false,0.0839,false,0.089,false,0.0839,correct
+Anti-Gravity Treadmill helps injured get moving again,false,false,0.0426,false,0.0816,true,0.8838,incorrect
+A lot of the problems with forest fires ... is because of bad policy (not to clear out the forests) that was put in place by environmentalists.,false,false,0.0334,false,0.0441,false,0.1439,incorrect
+"Citizens Property Insurance has ""over $500 billion worth of risk, with less than $10 billion worth of surplus.",false,false,0.079,false,0.083,false,0.0693,correct
+On-and-off fasting helps fight obesity,false,false,0.2819,false,0.2316,false,0.2579,correct
+"The government ""knowingly"" injected a birth defect-inducing vaccine into epidurals between 2010 and 2014 to hurt Black women",false,false,0.0126,false,0.0365,false,0.0175,incorrect
+"The Swedish parliament rejected seven proposals in May 2017 establishing a mandatory vaccination program, enacting a ban on the practice.",false,false,0.0281,false,0.0144,true,0.518,incorrect
+"The most likely triggering cause of (microcephaly)"" is the ""DTaP shot, a vaccine that had been recently mandated by the Brazilian government to be injected into pregnant women.",false,false,0.0343,false,0.0791,false,0.054,correct
+ A federal judge has approved GOP Congressman Trey Gowdy’s request to exhume the body of Vince Foster to determine if Bill and Hillary Clinton were involved in his death 23 years ago. ,false,false,0.0128,false,0.032,false,0.0258,incorrect
+"  The story of a jazz             musician named Tommy who went through a personal tragedy that led to             his writing the song “Precious Lord Take My Hand.”             He was Tommy Dorsey, the great trombonist and band leader.    ",false,false,0.367,false,0.1228,true,0.5694,incorrect
+"A three-cents-per-ounce soda tax in Philadelphia ""would result in the loss of 2,000 family-sustaining Teamster Union jobs and countless other jobs in the beverage industry.",false,false,0.0103,false,0.0233,false,0.0562,ambiguous
+ A woman became pregnant from being struck by a bullet that had passed through the scrotum of a Civil War soldier.,false,false,0.0739,false,0.0481,false,0.0297,correct
+Starving prostate cancer with what you eat for dinner,false,false,0.0484,false,0.0907,false,0.0641,correct
+Statin Drugs May Cut Risk of Kidney Trouble After Surgery,false,false,0.1063,true,0.5922,true,0.7961,correct
+"Mammograms Save Lives for Women in Their 40s, Study Says",false,false,0.3384,false,0.1676,false,0.2111,correct
+Blood Test May Predict Rheumatoid Arthritis,false,false,0.2555,false,0.428,false,0.4036,correct
+"Eighty-five percent of every dollar donated to the Clinton Foundation ended up either with the Clintons or with their staff to pay for travel, salaries, and benefits. Fifteen cents of every dollar actually went to some charitable beneficiary.",false,false,0.0717,false,0.0905,false,0.0479,correct
+"JUULing, or use of a JUUL e-cigarette, has caused cancer in four students.",false,false,0.0068,false,0.0168,false,0.0159,correct
+"Under last year’s health care reform, ""a bunch of bureaucrats decide whether you get care, such as continuing on dialysis or cancer chemotherapy.",false,false,0.022,false,0.0454,false,0.0343,correct
+"Facebook post Says the governors of Michigan, New York and Nevada “have issued orders banning the prescription of hydroxychloroquine to patients with COVID-19.”",false,false,0.0436,false,0.0144,false,0.0083,correct
+"Oregano, Thyme May Hold the Cure for Wasting Syndrome Disease",false,false,0.0588,false,0.1475,false,0.0459,correct
+"Jack Conway Says Rand Paul thinks drug-dealing, theft, burglary and prostitution should be decriminalized.",false,false,0.0221,false,0.0227,false,0.0311,incorrect
+A 31-year-old Cincinnati woman was taken to the hospital after the 14-month-old toddler she was babysitting got stuck in her vaginal cavity.,false,false,0.0902,false,0.0685,true,0.5073,incorrect
+A few drops of Visine brand eye drops taken internally will induce uncontrollable diarrhea.,false,false,0.0131,false,0.0281,false,0.0479,incorrect
+"The Black Panther Party created the Women, Infants, and Children (WIC) program that provides supplemental food assistance to single mothers and their children.",false,false,0.3921,false,0.0214,false,0.0104,correct
+Christine Blasey Ford committed perjury by identifying herself as a 'research psychologist' in her Senate committee testimony.,false,false,0.0984,false,0.0346,false,0.2227,incorrect
+"Marijuana laced with fentanyl is a problem, and you can detect it if ""weed smells like popcorn.",false,false,0.0206,false,0.0342,false,0.1172,incorrect
+Concussions in kids are detectable by blood test,false,false,0.0745,false,0.0484,false,0.0427,correct
+ Hillary Clinton was forced to cancel a campaign event after a video showed her making lizard-like “bizarre eye movements” that prove she’s suffering the lingering effects of head trauma. ,false,false,0.0303,false,0.0485,false,0.3627,ambiguous
+"An image shows reported cases of ""flesh eating bacteria"" in 2019.",false,false,0.042,false,0.0126,false,0.0663,ambiguous
+Teenage environmental activist Greta Thunberg is actually an Australian actress named Estella Renee. ,false,false,0.0099,false,0.011,false,0.0707,ambiguous
+"Crossroads GPS Says Joe Sestak ""voted to gut Medicare ... reducing benefits for 854,489 seniors"" and jeopardizing ""access to care for millions.",false,false,0.0238,false,0.1182,false,0.3952,incorrect
+Under the Obama plan . . . all the health care in this country is eventually going to be run by the government.,false,false,0.2119,false,0.1007,false,0.2837,ambiguous
+"Obama's one education accomplishment was ""legislation to teach 'comprehensive sex education' to kindergartners.",false,false,0.0232,false,0.022,false,0.0097,correct
+Landmark clinical trial shows gene-targeted drug can treat prostate cancer,false,true,0.5464,false,0.2681,false,0.1591,correct
+Music May Help Ease Pain for Anxious People,false,true,0.7143,true,0.7104,false,0.0561,correct
+"“While California is dying … Gavin (Newsom) is vacationing in Stevensville, MT!”",false,false,0.022,false,0.0181,false,0.0158,correct
+"Menopause 'hot flash' medicine could cut symptom by three quarters, trial shows",false,false,0.3898,false,0.3564,false,0.2265,correct
+"174 Democrats voted against a ""bipartisan act to stop convicted terrorists and sexual predators from becoming TSA Agents.",false,false,0.0186,false,0.017,false,0.0933,ambiguous
+"Using the ""African method"" of sitting over a steaming cooking pot can help you avoid contracting COVID-19.",false,false,0.034,false,0.0274,false,0.2354,incorrect
+"The Cutting Edge: Robotic Surgery, Today!",false,true,0.8048,false,0.3488,false,0.0859,correct
+Blogger Says Vicks VapoRub caused a child’s death.,false,false,0.0097,false,0.04,false,0.0675,ambiguous
+"Migraine drug could halve the length of attacks, study shows",false,false,0.4005,false,0.0753,false,0.1446,correct
+"During wartime, the Seal of the President of the United States is modified so that the eagle's head faces the opposite direction.",false,false,0.0511,false,0.0383,false,0.1981,incorrect
+The mayonnaise oozing from a chicken sandwich turned out to be pus from a tumor in the chicken.,false,false,0.0201,false,0.0412,false,0.276,ambiguous
+Accepting a friend request from a stranger will provide hackers with access to your computer and online accounts.,false,false,0.0072,false,0.0342,false,0.0072,correct
+Eating watermelon could lower your blood pressure,false,true,0.7854,false,0.4929,false,0.4887,correct
+"During the 2005 fight over Social Security, ""there were noisy demonstrations — but they were outside the events,"" and opponents were ""not disruptive — crowds booed lines they didn’t like, but that was about it.",false,false,0.093,false,0.0631,false,0.0359,incorrect
+Donald Trump owned stock in Thermo-Fisher Scientific at a time when his presidential administration was advocating for a COVID-19 test that uses Thermo-Fisher equipment.,false,false,0.0834,false,0.0378,false,0.3451,ambiguous
+The coronavirus has seen a “big surge in New Zealand. It's terrible. We don't want that.,false,false,0.0063,false,0.0235,false,0.0175,correct
+New York hospital sends some 'borderline' COVID-19 patients home with oxygen monitors.,true,false,0.0425,false,0.0557,false,0.0357,correct
+Senators: Double funding for universal flu vaccine research.,true,false,0.0506,false,0.0303,false,0.0114,correct
+China heads into Lunar New Year on shutdown as virus spreads to Europe.,true,false,0.017,false,0.0254,false,0.0223,correct
+"VW ramps up China electric car factories, taking aim at Tesla.",true,false,0.0323,false,0.0228,true,0.9712,incorrect
+A Texas girl required surgery after she swallowed part of a fidget spinner while cleaning it.,true,false,0.0877,false,0.1396,true,0.9933,incorrect
+"New nonprofit tackles COVID-19 in Native, rural communities.",true,false,0.0819,false,0.0323,false,0.0154,correct
+New adult behavioral health unit opens in northern Arkansas.,true,false,0.1595,false,0.0386,true,0.8908,ambiguous
+"As the United States government tried to negotiate a response to a novel coronavirus strain, cost issues temporarily stalled passing a bill approving roughly $8 billion in emergency funding.",true,false,0.0784,false,0.1715,false,0.0221,correct
+"France struggling to curb rate of coronavirus pandemic, health official says.",true,false,0.0503,false,0.055,false,0.0258,correct
+Montana joins other states with vaping product bans .,true,false,0.0449,false,0.043,false,0.4184,ambiguous
+Florida’s hepatitis A outbreak prompts vaccine push.,true,false,0.1193,false,0.321,false,0.1973,correct
+Another dolphin dies at Arizona aquatic facility.,true,false,0.0291,false,0.0155,false,0.4917,incorrect
+"States look to lower drug costs, consider Canadian imports.",true,false,0.2812,false,0.0861,false,0.0282,correct
+"Southeast Asian nations, among worst ocean polluters, aim to curb plastic debris.",true,false,0.062,false,0.045,false,0.0258,correct
+Death toll from acute encephalitis in east Indian town rises to 129 children.,true,false,0.0161,false,0.0365,false,0.0231,correct
+HIV in America: Studies zero in on trouble spots.,true,false,0.0161,false,0.0599,false,0.0731,correct
+"Miscellany Blue Says a ""lawmaker seeks to defund Planned Parenthood for ‘cutting children into small pieces.’",true,false,0.0155,false,0.0403,false,0.0277,correct
+One in 10 babies born in this country is born in Texas.,true,false,0.2433,false,0.0439,true,0.6321,ambiguous
+GSK to sell two vaccines in $1.1 billion deal to focus on newer treatments.,true,false,0.072,false,0.0408,false,0.072,correct
+Survey finds many ticks carry disease in North Dakota.,true,false,0.0639,false,0.0774,false,0.0408,correct
+FDA advisory panel rejects J&J drug for acute coronary syndrome.,true,false,0.047,false,0.0527,false,0.0103,correct
+An implant that hits a nerve,true,false,0.06,false,0.0848,false,0.0467,correct
+Arkansas Colleges of Health Education celebrates 5 years.,true,false,0.0256,false,0.0269,false,0.0128,correct
+"A year on, Indian anti-Vedanta protesters say still await justice.",true,false,0.0767,false,0.0403,false,0.4331,incorrect
+Tuberculosis outbreak associated with Mankato university.,true,false,0.0123,false,0.0109,false,0.0064,correct
+U.S. men less likely to heed health warnings as coronavirus death toll mounts: Reuters Poll.,true,false,0.0362,false,0.0329,false,0.0362,correct
+There's a promising new HIV vaccine candidate in the pipeline,true,true,0.9225,true,0.8988,false,0.2795,correct
+U.S. McDonald's to put calorie counts in lights.,true,false,0.0532,false,0.0474,false,0.0338,correct
+"US births hit a 30-year low, despite good economy.",true,false,0.0326,false,0.0756,false,0.0704,correct
+Gene-editing Chinese scientist kept much of his work secret.,true,false,0.0287,false,0.0707,false,0.0178,correct
+EPA watchdog: Health monitoring after Harvey was lacking.,true,false,0.0206,false,0.043,true,0.8489,incorrect
+Missouri student on Columbia campus has active tuberculosis.,true,false,0.0527,false,0.0914,false,0.1014,correct
+"Viral image Says 80% of novel coronavirus cases are ""mild.",true,false,0.0373,false,0.0588,false,0.0254,correct
+A form of strep infection is capable of affecting the nasal cavity and face.,true,true,0.9412,true,0.9505,false,0.3014,correct
+Suicides rise and fall with economy: CDC report.,true,false,0.0729,false,0.1665,false,0.4104,ambiguous
+Oregon 2nd-grader diagnosed with meningococcal meningitis.,true,false,0.1321,false,0.0266,false,0.0333,correct
+"Women ""are still paid 82 cents for every dollar a man earns in Texas.",true,false,0.0201,false,0.0318,false,0.1909,incorrect
+Utah governor criticizes federal marijuana reform inaction.,true,false,0.0306,false,0.0158,true,0.9974,incorrect
+U.S. 'gag rule' linked to 40% jump in abortions in parts of Africa.,true,false,0.0198,false,0.0419,false,0.0158,correct
+"Experimental treatment helps 2 out of 3 peanut allergy sufferers, study finds",true,false,0.4094,false,0.327,false,0.0868,correct
+Judge considers Hammond Ranches grazing permit.,true,false,0.23,false,0.0427,true,0.9973,incorrect
+Statins tied to lower risk of fatal prostate cancer,true,false,0.0765,false,0.072,false,0.0954,correct
+Houston reports 3 teens treated for vape-related lung issues.,true,false,0.069,false,0.0199,false,0.4101,incorrect
+FACT CHECK: Trump pitches drug not approved for coronavirus.,true,false,0.0202,false,0.0309,false,0.0095,correct
+High ambitions: Uruguay cannabis firm targets booming global market for medical marijuana.,true,false,0.3898,false,0.0491,true,0.9954,incorrect
+"World must prepare for inevitable next flu pandemic, WHO says.",true,false,0.1756,false,0.499,false,0.2519,correct
+Coronavirus forces U.S. churches to offer Easter Sunday services unlike any before.,true,false,0.0343,false,0.0253,false,0.0095,correct
+"For every dollar we invest in Head Start, we get $5 to $7 back into our economy.",true,false,0.1818,false,0.095,false,0.3936,correct
+Zambia records first coronavirus death.,true,false,0.0527,false,0.0386,false,0.0136,correct
+Hospital closings hit hard on the edge of the Rust Belt.,true,false,0.094,false,0.1262,false,0.0522,correct
+"Swiss police arrest ""healer"" accused of infecting 16 with HIV.",true,false,0.0134,false,0.0097,false,0.0134,correct
+Nestle recalls batch of Alfamino infant formula in Germany.,true,false,0.0816,false,0.0323,false,0.0816,correct
+Missouri physicians warn against bug-borne diseases.,true,false,0.156,false,0.1325,true,0.9924,ambiguous
+Trial Shows Cystic Fibrosis Drug Helped Ease Breathing,true,false,0.3331,false,0.3258,false,0.1839,correct
+Pelosi offers Medicare negotiation plan to curb drug prices.,true,false,0.0484,false,0.0232,false,0.0166,correct
+Jury clears J&J of liability in New Jersey talc cancer case.,true,false,0.0851,false,0.0237,true,0.9905,ambiguous
+Lawmakers ready for ‘fast and furious’ session.,true,false,0.0546,false,0.0464,false,0.053,correct
+Test may help predict colon cancer recurrence risk,true,true,0.5126,true,0.8355,false,0.4444,correct
+Colorado assisted living facility license suspended.,true,false,0.0609,false,0.0459,false,0.015,correct
+"NASA twins study explores space, the final genetic frontier.",true,false,0.2325,false,0.0382,true,0.9994,ambiguous
+"In the Illinois Legislature, Barack Obama ""voted 'present,' instead of yes or no"" on seven votes involving abortion rights.",true,false,0.0648,false,0.0464,true,0.7773,incorrect
+Nearly all ships operated by U.S.-headquartered cruise lines are registered in foreign countries.,true,false,0.0372,false,0.0346,false,0.0197,correct
+Health care systems to get $5.5M to prepare for emergencies.,true,false,0.0405,false,0.0784,false,0.1148,correct
+"‘Critical moment’ for firms amid retirements, opioid crisis.",true,false,0.1741,false,0.0888,false,0.3704,ambiguous
+New Mexico land boss concerned about border wall work.,true,false,0.1205,false,0.0267,false,0.1205,correct
+U.S. bishop may have exposed Catholics to hepatitis during Communion.,true,false,0.0409,false,0.0303,false,0.0294,correct
+Arizona State Senate candidate Bobby Wilson fatally shot his mother in 1963.,true,false,0.018,false,0.02,true,0.6792,incorrect
+Group launches plan to improve behavioral care access.,true,true,0.5307,false,0.4063,false,0.1676,correct
+"Hilary Rosen Says Chris Christie ""vetoed Planned Parenthood funding five times over the course of his governorship.",true,false,0.0287,false,0.0292,false,0.0238,correct
+California lawmakers want to repeal HIV criminalization laws.,true,false,0.0313,false,0.0229,true,0.9707,ambiguous
+Pakistan psychologists issue conflict health warning.,true,false,0.0392,false,0.021,true,0.5508,ambiguous
+Boy with rare disease gets brand new skin with gene therapy.,true,false,0.1144,false,0.0536,false,0.0705,correct
+Folic acid tied to better grades in Swedish teens,true,false,0.0502,false,0.0348,false,0.0126,correct
+"Although Georgia Gov. Brian Kemp ""opened"" the state, his mansion remained closed for tours during the COVID-19 pandemic.",true,false,0.0343,false,0.0396,false,0.1178,incorrect
+"Taiwan's carrot-and-stick approach to virus fight wins praise, but strains showing.",true,false,0.0507,false,0.0496,true,0.7671,incorrect
+'What choice do I have?' Lock-down strands millions in China's Wuhan.,true,false,0.0461,false,0.06,false,0.0206,incorrect
+UN: Nearly a half-billion in Asia-Pacific still going hungry.,true,false,0.024,false,0.0512,true,0.8096,ambiguous
+Hard questions about chemo,true,false,0.0552,false,0.0663,false,0.0436,correct
+"Elon Musk once tweeted: ""If one day, my words are against science, choose science.",true,false,0.0893,false,0.0579,false,0.0378,correct
+"On September 18 2020, Twitter user @JohnCammo tweeted that President Trump's ""October Surprise"" would involve a positive test result.",true,false,0.0739,false,0.0484,false,0.4444,incorrect
+Indiana city in jeopardy of losing animal health business.,true,false,0.0661,false,0.0552,true,0.8808,incorrect
+"A photograph shows the Arch of Baal erected on the National Mall in Washington, D.C.",true,false,0.329,false,0.0129,false,0.3655,ambiguous
+Pokémon Go developer Niantic is working on a Harry Potter version of the hugely popular augmented-reality game.,true,false,0.1247,false,0.0232,true,0.9034,incorrect
+"Trio wins chemistry Nobel for work on antibody drugs, smart enzymes.",true,false,0.1756,false,0.0231,true,0.9067,ambiguous
+Doctors end protest to demand flu vaccines for migrants.,true,false,0.0164,false,0.0265,false,0.0331,correct
+Chance the Rapper giving $1M to boost mental health services.,true,false,0.116,false,0.0225,false,0.0152,correct
+"In clinical trial, cream reduces squamous cell carcinoma risk",true,false,0.3403,false,0.1879,false,0.2039,correct
+Rihanna's Instagram message to followers to throw away the Snapchat app caused the company's share value to fall by hundreds of millions of dollars in one day.,true,false,0.02,false,0.0171,false,0.4979,incorrect
+Heart Device Cuts Death Rate,true,false,0.0766,false,0.2015,false,0.2054,correct
+The family of Anne Frank sought (and was denied) refugee status in the United States.,true,false,0.0144,false,0.009,false,0.0144,correct
+Fitness experts separate folklore from fact.,true,false,0.278,false,0.2774,true,0.677,incorrect
+"In Iran in 1979, the extremists hijacked the broad-based popular revolution against the Shah and established a brutal theocracy.",true,false,0.0111,false,0.0137,true,0.9107,incorrect
+"In January 2017, Dr. Anthony Fauci predicted a serious pandemic during U.S. President Donald Trump's tenure in office.",true,false,0.0291,false,0.0306,false,0.0373,correct
+Women who quit hormone therapy still live with cancer risk,true,false,0.0348,false,0.1388,false,0.1857,correct
+The Healthy Skeptic: Products make testosterone claims,true,false,0.0277,false,0.0622,false,0.0277,correct
+"Humira Provides Effective, Non-Steroid Alternative for Eye Inflammation",true,false,0.4791,false,0.2806,false,0.1715,correct
+"The typical Wisconsin worker makes $5,000 less each year than our neighbors in Minnesota"" under Gov. Scott Walker’s policies.",true,false,0.0498,false,0.0526,false,0.07,incorrect
+O’Rourke offers blue vision for red Texas during Nelson show.,true,false,0.0674,false,0.0278,false,0.0365,correct
+Technology helps China brace for population growth.,true,false,0.108,false,0.3387,false,0.2066,correct
+Washington state deals blow to plan for coal export terminal.,true,false,0.0186,false,0.0147,false,0.2555,ambiguous
+"In Africa, a child dies every minute because of (malaria).",true,false,0.0478,false,0.1167,false,0.1401,correct
+Indiana University cleaning mold inside residence quadrangle.,true,false,0.1425,false,0.0265,false,0.1312,ambiguous
+"Lamont fills top public health, insurance agency jobs.",true,false,0.0473,false,0.0122,false,0.4107,incorrect
+"Women with Stage 4 breast cancer survive longer if they have surgery, study shows",true,false,0.2587,false,0.0973,false,0.1169,correct
+FDA approves irritable bowel drug.,true,false,0.0479,false,0.0675,false,0.0412,correct
+Problems spur FDA caution on insulin pump,true,false,0.1178,false,0.108,false,0.0459,correct
+Recall: Nearly 57 tons of ground beef for possible E coli.,true,false,0.0655,false,0.0905,false,0.0467,correct
+Black and white caterpillars can cause severe allergic reactions in some people who touch them.,true,false,0.0254,false,0.0631,false,0.0768,correct
+"Measles outbreak kills more than 1,200 in Madagascar.",true,false,0.0242,false,0.0231,false,0.0188,correct
+"Hillary Clinton Says Bernie Sanders ""voted for regime change with respect to Libya.",true,false,0.0129,false,0.0111,true,0.7034,ambiguous
+U.S. ‘wasted’ months before preparing for virus pandemic.,true,false,0.0318,false,0.0454,false,0.0324,correct
+"Canada faces 'critical week' in coronavirus crisis, death toll jumps.",true,false,0.0546,false,0.0372,false,0.0321,correct
+"Ebola is real, Congo president tells skeptical population.",true,false,0.0427,false,0.0263,false,0.0412,correct
+U.S. Panel Questions Prostate Screening,true,false,0.1417,false,0.0723,false,0.0366,correct
+"Our spending has caught up with us, and our debt soon will eclipse the entire size of our national economy.",true,false,0.0188,false,0.0636,false,0.2119,incorrect
+'Stink flirting' is a thing - just ask a ring-tailed lemur.,true,false,0.1547,false,0.049,true,0.7219,ambiguous
+French foie gras makers worry as bird flu spreads in Europe.,true,false,0.0199,false,0.0588,false,0.0199,correct
+North Carolina fair bans mist fans as health measure.,true,false,0.0676,false,0.0276,false,0.0152,correct
+Influenza now in all Maine counties; considered widespread.,true,false,0.3887,false,0.0488,false,0.026,correct
+Medicare 5-year cancer bill tops $21.1 bln: study.,true,false,0.2266,false,0.0748,false,0.0313,incorrect
+Estrogen Lowers Breast Cancer and Heart Attack Risk in Some,true,false,0.4346,false,0.2747,false,0.3709,correct

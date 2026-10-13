@@ -7,3 +7,5 @@ matplotlib
 tqdm
 sentencepiece
 rank_bm25
+requests
+python-dotenv

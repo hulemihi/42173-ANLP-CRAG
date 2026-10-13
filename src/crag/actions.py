@@ -20,4 +20,11 @@ def decide_action(scores, upper=UPPER, lower=LOWER):
     """
     Given a list of relevance scores (one per retrieved passage), return CORRECT, INCORRECT or AMBIGUOUS.
     """
-    raise NotImplementedError
+    if not scores:
+        return INCORRECT
+    if any(s >= upper for s in scores):
+        return CORRECT
+    elif all(s < lower for s in scores):
+        return INCORRECT
+    else:
+        return AMBIGUOUS
