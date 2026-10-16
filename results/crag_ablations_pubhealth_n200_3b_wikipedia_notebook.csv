@@ -1,0 +1,243 @@
+id,action_check,query,refined_strips,web_items,raw_web_items,crag_no_refine,crag_no_refine_p_true,crag_no_rewrite,crag_no_rewrite_p_true,crag_no_web,crag_no_web_p_true,all_correct,all_correct_p_true,all_incorrect,all_incorrect_p_true,all_ambiguous,all_ambiguous_p_true,oracle,oracle_p_true
+0,incorrect,Trump Obama pandemic death deaths,1,5,5,false,0.0,false,0.0,false,0.0,false,0.0,false,0.0,false,0.0,false,0.0
+1,incorrect,Alcoholism frostbite penis frostbitten snowman,5,5,5,false,0.0,false,0.0,false,0.0,false,0.0,false,0.0,false,0.0,false,0.0
+2,incorrect,Cracker Barrel name change racism liberals Caucasians,0,5,1,false,0.0,false,0.0,false,0.0,false,0.0,false,0.0,false,0.0,false,0.0
+3,incorrect,IRS health databases personal secrets intimate Americans,0,5,5,false,0.0,false,0.0,false,0.0,false,0.0,false,0.0,false,0.0,false,0.0
+4,incorrect,invisibility cloak demonstration human,2,5,5,false,0.0004,false,0.0,false,0.0,false,0.0,false,0.0004,false,0.0,false,0.0
+5,incorrect,San Antonio water customers growth 25 years usage,1,5,5,false,0.0,false,0.0,false,0.0,false,0.0,false,0.0,false,0.0,false,0.0
+6,incorrect,Driver Las Vegas AllahuAkbar pedestrians vehicle strike police suppress,4,5,5,false,0.0,false,0.0,false,0.0,false,0.0,false,0.0,false,0.0,false,0.0
+7,incorrect,NASA NOOA GISTEMP globalwarming,2,5,5,false,0.0,false,0.0,false,0.0,false,0.0,false,0.0,false,0.0,false,0.0
+8,ambiguous,Cortisol levels children hair mental health risk,5,5,5,true,1.0,true,1.0,false,0.0,false,0.0,true,1.0,true,1.0,false,0.0
+9,incorrect,Obama law HIPAA violation healthcare data government guncontrol,0,5,5,false,0.0,false,0.0,false,0.0,false,0.0,false,0.0,false,0.0,false,0.0
+10,incorrect,Florida government budget slashing $7b,0,5,5,false,0.0,false,0.0,false,0.0,false,0.0,false,0.0,false,0.0,false,0.0003
+11,incorrect,Roe v Wade rape lie abortion,5,5,5,false,0.0,false,0.0,false,0.0,false,0.0,false,0.0,false,0.0,false,0.0
+12,incorrect,Five-minute neck scan dementia detect earlier,1,5,5,true,0.9914,true,0.9933,false,0.0,false,0.0,true,0.9914,false,0.2689,false,0.0
+13,incorrect,Johns Hopkins Cancer Update spread treatments,1,5,5,false,0.0,false,0.0007,false,0.0,false,0.0,false,0.0,false,0.0,false,0.0
+14,incorrect,Nurse Zambian hospital babyswap wrongparents,2,5,5,false,0.0,false,0.0,false,0.0,false,0.0,false,0.0,false,0.0,false,0.0
+15,incorrect,Aspirin pancreatic cancer risk,5,5,5,true,1.0,true,1.0,false,0.2713,false,0.0,true,1.0,true,1.0,false,0.0
+16,incorrect,"PresidentObama
+RichardPhillips
+NavySeals
+MaerskAlabama
+PiratesSomalia",0,5,5,false,0.0,false,0.0,false,0.0,false,0.0,false,0.0,false,0.0,false,0.0007
+17,incorrect,Wilmington Ohio no gov funding,2,5,5,false,0.0,false,0.0,false,0.0,false,0.0,false,0.0,false,0.0,false,0.0
+18,incorrect,benzene cancer leukemia车内通风开窗,5,5,5,false,0.0,false,0.0009,false,0.0,false,0.0,false,0.0,false,0.0,false,0.2689
+19,incorrect,Mother Death Eye Donation Child Letter,3,5,5,false,0.0,false,0.0,false,0.0,false,0.0,false,0.0,false,0.0,false,0.0
+20,correct,Researchers chlamydia vaccine protection widely produced,5,5,5,false,0.0,false,0.0,false,0.0,false,0.0,true,1.0,true,1.0,false,0.0
+21,ambiguous,Rick Perry Mexico City Policy Obama funding abortion worldwide,5,5,3,true,0.9981,false,0.0,false,0.0,false,0.0,true,0.9999,true,0.9998,false,0.0001
+22,correct,Partial knee replacements better many report,5,5,5,true,0.9997,true,0.9997,true,0.9997,true,0.9997,true,0.9981,true,0.9996,true,0.5
+23,incorrect,type 2 diabetes wearable medical device,5,5,5,false,0.2689,true,0.9996,true,0.9998,false,0.0,false,0.2689,false,0.0,true,0.9996
+24,incorrect,Chris_Kyle American_Sniper Hurricane_Katrina looters Texas_carjackers Jesse_Ventura,5,5,5,false,0.0,false,0.0,false,0.0,false,0.0,false,0.0,false,0.0,false,0.0
+25,incorrect,"Baucus  
+healthcare  
+bill  
+guns  
+self-defense",5,5,5,false,0.0,false,0.0,false,0.0,false,0.0,false,0.0,false,0.0,false,0.0
+26,ambiguous,"Nidal Hasan
+Fort Hood shootings
+Obama Administration
+advisor",3,5,5,false,0.0,false,0.0,false,0.0,false,0.0,false,0.0,false,0.0,false,0.0
+27,incorrect,New Guinea Flatworms Florida human_health sighting reporting 911,1,5,5,false,0.0,false,0.0,false,0.0,false,0.0,false,0.0,false,0.0,false,0.0
+28,incorrect,Hillary_Clinton tantrum NBC_CommanderInChief_2016,0,5,5,false,0.0,false,0.0,false,0.0,false,0.0,false,0.0,false,0.0,false,0.0
+29,correct,hydroxychloroquine bad surveys elderly very sick,5,5,5,false,0.0,false,0.0,false,0.0,false,0.0,false,0.0,false,0.0,false,0.0
+30,correct,Anti-gravity treadmill injured moving,5,5,5,true,1.0,true,1.0,true,1.0,true,1.0,true,1.0,true,1.0,false,0.0005
+31,ambiguous,Forest Fires Policy Environmentalists Clearing,4,5,5,false,0.0,false,0.0,false,0.0,false,0.0,false,0.0,false,0.0,false,0.0
+32,incorrect,Citizens Property Insurance over $500billion risk $10billion surplus,0,5,5,false,0.0,false,0.0,false,0.0,false,0.0,false,0.0,false,0.0,false,0.0
+33,ambiguous,On-and-off fasting obesity fight,5,5,5,true,1.0,true,1.0,true,0.9981,true,0.9981,true,1.0,true,1.0,false,0.0
+34,incorrect,government knowinjepdurel vaccine birthdefect blackwomen 2010-2014,1,5,5,false,0.0,false,0.0,false,0.0,false,0.0,false,0.0,false,0.0,false,0.0
+35,incorrect,Swedish parliament May 2017 mandatory vaccination rejection proposals banned,1,5,5,false,0.0,false,0.0,false,0.0,false,0.0,false,0.0,false,0.0,false,0.0
+36,correct,Microcephaly DTaP shot pregnancy mandate Brazil,5,5,5,false,0.0,false,0.0,false,0.0,false,0.0,false,0.0,false,0.0,false,0.0
+37,incorrect,Trey Gowdy Vince Foster exhumation Clintons involvement death inquiry,0,5,5,false,0.0,false,0.0,false,0.0,false,0.0,false,0.0,false,0.0,false,0.0
+38,incorrect,"Tommy Dorsey
+jazz musician
+personal tragedy
+Precious Lord Take My Hand
+trombonist bandleader",1,5,5,false,0.0,false,0.0,false,0.0,false,0.0,false,0.0,false,0.0,false,0.0
+39,ambiguous,Philadelphia soda tax jobs union,5,5,5,false,0.0,false,0.0,false,0.0,false,0.0,false,0.0,false,0.0,false,0.0
+40,incorrect,Woman pregnancy bullet CivilWar soldier scrotum,4,5,5,false,0.0,false,0.0,false,0.0,false,0.0004,false,0.0,false,0.0,false,0.0
+41,incorrect,Prostatecancer diet dinner,5,5,5,false,0.0,false,0.0,false,0.0,false,0.0003,false,0.0,false,0.0,false,0.0
+42,incorrect,Statin Drugs Kidney Surgery Risk Reduction,5,5,5,false,0.0,true,1.0,true,0.6812,false,0.0001,false,0.0,true,0.6786,true,0.9884
+43,ambiguous,Mammograms 40s  women  study  saves  lives,5,5,5,false,0.0,false,0.0,false,0.0,false,0.0,true,1.0,false,0.0,false,0.0
+44,correct,Blood Test Rheumatoid Arthritis Prediction,5,5,5,false,0.0007,false,0.0,false,0.0,false,0.0,true,0.9994,false,0.0009,false,0.0
+45,incorrect,ClintonFoundation donation usage charitytravelstaffsalariesbenefitscharitable beneficiaries,5,5,5,false,0.0,false,0.0,false,0.0,false,0.0,false,0.0,false,0.0,false,0.0015
+46,incorrect,JUUL e-cigarette cancer students,5,5,5,false,0.0,false,0.0,false,0.0,false,0.0,false,0.0,false,0.0,false,0.0
+47,incorrect,bureaucrats healthcare reform dialysis chemotherapy,5,5,5,false,0.0,false,0.0,false,0.0,false,0.0,false,0.0,false,0.0,false,0.0003
+48,ambiguous,Facebook post governors hydroxychloroquine covid-19 bans,5,5,5,false,0.0,false,0.0,false,0.0,false,0.0,false,0.0,false,0.0,false,0.0
+49,incorrect,Oregano Thyme Wasting Syndrome Disease Cure,2,5,5,false,0.0002,false,0.0003,false,0.0,false,0.0,false,0.0002,false,0.0004,false,0.0
+50,incorrect,Jack Conway Rand Paul decriminalization drug-dealing theft burglary prostitution,2,5,5,false,0.0,false,0.0,false,0.0,false,0.0,false,0.0,false,0.0,false,0.0
+51,incorrect,Cincinnati 31 year old woman toddler vaginal injury,0,5,5,false,0.0,false,0.0,false,0.0,false,0.0,false,0.0,false,0.0,false,0.0
+52,correct,Visine internal diarrhea uncontrollable drops,5,5,5,false,0.0,false,0.0,false,0.0,false,0.0,false,0.0,false,0.0,false,0.0
+53,ambiguous,Black Panther Party WIC program single mothers children,5,5,5,false,0.0,false,0.0,false,0.0,false,0.0,false,0.0,false,0.0,false,0.0
+54,incorrect,Christine_Blasey_Ford perjury Senate_committee_testimony research_psychologist,5,5,5,false,0.0,false,0.0,false,0.0,false,0.0,false,0.0,false,0.0,false,0.0
+55,incorrect,Marijuana fentanyl detection smell popcorn,0,5,5,false,0.0,false,0.0,false,0.0,false,0.0,false,0.0,false,0.0,false,0.0
+56,ambiguous,Concussions kids detectable blood test,5,5,5,false,0.0,true,0.9399,false,0.0,false,0.0,false,0.0012,false,0.0067,true,0.9241
+57,incorrect,Hillary Clinton head trauma eye-movements lizard-eye-movements campaign-event,2,5,5,false,0.0,false,0.0,false,0.0,false,0.0,false,0.0,false,0.0,false,0.0
+58,incorrect,flesh eating bacteria 2019 cases images,3,5,5,false,0.0,false,0.0,false,0.0,false,0.0,false,0.0,false,0.0,false,0.0474
+59,ambiguous,Greta Thunberg Australian actress Estella Renee,5,5,5,false,0.0,false,0.0,false,0.0,false,0.0,false,0.0,false,0.0,false,0.0
+60,incorrect,Joe Sestak Medicare gutting benefits seniors access care,0,5,1,false,0.2689,false,0.0,false,0.0,false,0.0,false,0.2689,false,0.2689,false,0.0
+61,incorrect,ObamaPlan healthcaregov USgovernment Obamacare,5,5,5,false,0.0,false,0.0,false,0.0,false,0.0,false,0.0,false,0.0,false,0.0
+62,ambiguous,Obama sex education kindergartners legislation,5,5,5,false,0.0,false,0.0,false,0.0,false,0.0,false,0.0,false,0.0,false,0.0
+63,incorrect,Landmark clinical trial gene targeted drug prostate cancer,4,5,5,false,0.0022,true,1.0,false,0.0,false,0.0,false,0.0022,false,0.3921,false,0.0
+64,incorrect,Music anxiety pain relief people,2,5,5,true,1.0,true,1.0,true,1.0,false,0.0057,true,1.0,true,1.0,false,0.0
+65,incorrect,California Newsom Stevensville Montana,5,5,5,false,0.0,false,0.0,false,0.0,false,0.0,false,0.0,false,0.0,false,0.0
+66,ambiguous,Menopause hot flashes medicine trial symptom reduction,5,5,5,true,0.9981,false,0.0373,false,0.0,false,0.0,true,1.0,true,0.9985,false,0.0
+67,incorrect,Democrats TSA Agents bipartisanship terrorism predators agents,2,5,5,false,0.0,false,0.0,false,0.0,false,0.0,false,0.0,false,0.0,false,0.0
+68,ambiguous,"African method  
+sitting  
+steaming cooking pot  
+avoid  
+COVID-19",5,5,5,false,0.0,false,0.0,false,0.0,false,0.0,false,0.0,false,0.0,false,0.0
+69,incorrect,Robotic surgery today surgical procedures advances technology,5,5,5,false,0.3775,true,0.6791,false,0.0,true,0.9914,false,0.3775,true,0.9241,false,0.0
+70,incorrect,Blogger Vicks VapoRub child death,3,5,5,false,0.0,false,0.0,false,0.0,false,0.0,false,0.0,false,0.0,false,0.0
+71,incorrect,Migraine drug attack duration studies reveals,3,5,5,false,0.0759,false,0.0001,false,0.0,false,0.0,false,0.0759,false,0.0373,false,0.0
+72,incorrect,Wartime US President seal eagle direction,1,5,5,false,0.0,false,0.0,false,0.0,false,0.0,false,0.0,false,0.0,false,0.0
+73,incorrect,mayonnaise pus tumor chicken,0,5,5,false,0.0,false,0.0,false,0.0,false,0.0,false,0.0,false,0.0,false,0.0
+74,incorrect,friendrequest hacker access computer accounts,5,5,5,false,0.0,false,0.0,false,0.0,false,0.0,false,0.0,false,0.0,false,0.0
+75,ambiguous,Watermelon bloodpressure lowering,5,5,5,true,0.9994,true,1.0,false,0.0,false,0.0,true,0.9999,true,0.9997,false,0.0
+76,incorrect,SocialSecurity fight 2005 demonstrators protests,5,5,5,false,0.0,false,0.0,false,0.0,false,0.0,false,0.0,false,0.0,false,0.0003
+77,incorrect,Donald-Trump ThermoFisher Scientific COVID-19-test Equipment-Promotion,5,5,5,false,0.0,true,0.9626,false,0.0,false,0.0,false,0.0,false,0.0002,false,0.0
+78,correct,Coronavirus New Zealand Surge Condition Treatment,5,5,5,false,0.0009,true,0.989,true,0.989,true,0.989,false,0.0002,false,0.0474,false,0.0
+79,correct,New York hospital borderline covid-19 patients sent home oxygen monitors,5,5,5,false,0.0,false,0.0,false,0.0,false,0.0,true,1.0,true,0.9994,true,1.0
+80,incorrect,Senators double funding universal flu vaccine research,1,5,5,true,0.7318,true,0.9998,false,0.0,false,0.0,true,0.7318,true,0.9526,false,0.0004
+81,ambiguous,China LunarNewYear shutdown virus Europe,5,5,5,false,0.4378,false,0.0293,false,0.0,false,0.0,true,0.9991,false,0.0041,false,0.0003
+82,incorrect,VW China electric car factories Tesla,4,5,5,true,1.0,true,1.0,false,0.0,false,0.0,true,1.0,true,0.9998,false,0.0
+83,incorrect,Texas girl fidget spinner swallowed surgery clean,3,5,5,true,1.0,true,0.9997,false,0.0006,false,0.0,true,1.0,true,1.0,false,0.0041
+84,correct,COVID-19 Native Rural Communities nonprofit,5,5,5,false,0.0474,false,0.0012,false,0.0012,false,0.0012,false,0.0025,false,0.0,true,1.0
+85,incorrect,Newadultbehavioralhealthunit northernarkansas,1,5,5,false,0.0,true,0.9994,false,0.0,false,0.0,false,0.0,false,0.0,false,0.0
+86,incorrect,United States government coronavirus emergency funding negotiation stalled,5,5,5,false,0.0,false,0.0019,false,0.0,false,0.0,false,0.0,false,0.0,false,0.0
+87,correct,France coronavirus pandemic health official,5,5,5,false,0.0052,false,0.0,false,0.0,false,0.0,false,0.0761,false,0.0067,false,0.0601
+88,correct,Montana vaping bans products,5,5,5,true,1.0,true,0.9997,true,0.9997,true,0.9997,true,0.9892,true,1.0,false,0.0002
+89,correct,Florida hepatitis A outbreak vaccine push,5,5,5,true,1.0,true,0.9994,true,0.9994,true,0.9994,true,1.0,true,1.0,false,0.0052
+90,incorrect,"dolphin
+Arizona
+aquatic
+facility
+death",2,5,5,true,0.9994,true,0.9997,false,0.0,false,0.0,true,0.9994,true,0.989,true,0.9975
+91,correct,States drug costs canadian imports consider,5,5,5,true,0.9975,true,0.9999,true,0.9999,true,0.9999,true,1.0,true,0.9999,true,1.0
+92,incorrect,SoutheastAsian nations ocean pollution plasticdebris aim curb,5,5,5,true,1.0,true,1.0,false,0.0,false,0.0,true,1.0,true,1.0,false,0.0001
+93,ambiguous,Death toll acute encephalitis east Indian town children,5,5,5,true,0.9988,true,0.8519,false,0.0003,false,0.0003,true,0.9996,true,0.9975,true,1.0
+94,ambiguous,HIV America studies trouble spots,5,5,5,false,0.5,false,0.3208,false,0.0002,false,0.0002,false,0.3208,true,0.5622,true,0.9997
+95,correct,Miscellany Blue PlannedParenthood lawmaker cut children small pieces,5,5,1,false,0.0,false,0.0,false,0.0,false,0.0,false,0.0003,false,0.0,true,0.8176
+96,incorrect,babies born texas birthrate,5,5,5,false,0.0,true,0.9399,false,0.0,false,0.0,false,0.0,false,0.0,false,0.0141
+97,ambiguous,"GSK
+vaccines
+$1.1 billion
+deal
+newer treatments",5,5,5,false,0.0009,true,0.8517,false,0.0,false,0.0,false,0.0,false,0.0012,false,0.0001
+98,incorrect,ticks disease north dakota,5,5,5,false,0.0396,false,0.0,false,0.0009,false,0.0,false,0.0396,true,0.825,true,1.0
+99,incorrect,FDA J&J acute coronary syndrome rejection,5,5,5,true,0.954,true,0.9997,false,0.0,false,0.0,true,0.954,false,0.0086,true,0.9971
+100,incorrect,Nerve Implant Hit,4,5,5,true,0.5633,true,0.8184,false,0.0,false,0.0053,true,0.5633,false,0.0003,false,0.3775
+101,ambiguous,Arkansas Colleges Health Education 5th anniversary,5,5,5,false,0.0009,false,0.0,false,0.0,false,0.0,true,0.9993,false,0.1479,false,0.0
+102,incorrect,Indian anti Vedanta protesters justice year,0,5,5,true,0.977,true,0.9991,false,0.0,false,0.0,true,0.977,true,0.977,false,0.0
+103,correct,Tuberculosis Mankato university outbreak,5,5,5,false,0.0,false,0.0,false,0.0,false,0.0,true,1.0,true,1.0,true,1.0
+104,incorrect,U.S._men_heed_health_warnings_coronavirus_death_toll,5,5,5,false,0.0,true,0.9985,false,0.0,false,0.0,false,0.0,false,0.0,false,0.011
+105,incorrect,HIV vaccine candidate pipeline new promising,5,5,5,true,0.9999,true,1.0,true,0.9859,true,0.9999,true,0.9999,true,1.0,false,0.0
+106,incorrect,McDonalds calories lighting,2,5,5,true,1.0,false,0.0,false,0.0,false,0.0,true,1.0,true,1.0,true,0.9981
+107,incorrect,US births 30yearlow economy,5,5,5,false,0.0,false,0.0,false,0.0,false,0.0001,false,0.0,false,0.0,false,0.0019
+108,incorrect,Gene-editing Chinese scientist secrecy,5,5,5,true,0.9933,true,1.0,false,0.0,true,0.9996,true,0.9933,true,1.0,true,1.0
+109,incorrect,EPA watchdog Harvey health monitoring,4,5,5,true,1.0,true,1.0,false,0.0,false,0.0,true,1.0,true,0.9526,false,0.3838
+110,incorrect,Missouri student tuberculosis Columbia campus active,5,5,5,true,0.9999,true,1.0,false,0.0006,false,0.0,true,0.9999,false,0.4378,true,1.0
+111,correct,"Viral image
+novel coronavirus
+cases
+mild",5,5,5,false,0.0,false,0.0,false,0.0,false,0.0,false,0.0,false,0.0,false,0.0067
+112,ambiguous,Strep infection nasal cavity facial,5,5,5,true,1.0,true,1.0,true,1.0,true,1.0,true,1.0,true,1.0,true,1.0
+113,ambiguous,Suicides economy CDC report,5,5,5,true,0.9999,true,0.9997,false,0.0001,false,0.0001,true,0.9991,true,0.9998,true,1.0
+114,correct,Oregon 2nd grader meningococcal meningitis,5,5,5,false,0.0,false,0.0015,false,0.0015,false,0.0015,true,0.9996,true,0.9988,false,0.0
+115,incorrect,Women Texas pay gap men earnings,2,5,5,true,0.9994,false,0.0,false,0.0,false,0.0,true,0.9994,true,0.9627,false,0.0
+116,incorrect,Utah governor marijuana reform federal action,2,5,5,true,1.0,true,1.0,false,0.0,false,0.0,true,1.0,true,1.0,true,0.9999
+117,ambiguous,U.S._gag_rule abr rushes africa,5,5,5,false,0.0,true,0.9959,false,0.0,false,0.0,false,0.0,false,0.0,true,0.9627
+118,incorrect,Experimental treatment peanut allergy suffers success rate study finds,1,5,5,false,0.011,true,1.0,false,0.0005,false,0.0,false,0.011,false,0.0001,false,0.0
+119,incorrect,Judge HammondRanches grazingpermit,0,5,5,true,0.9937,true,0.9988,false,0.0,false,0.0,true,0.9937,true,0.9937,false,0.0
+120,correct,Statins prostate cancer fatal risk,5,5,5,false,0.018,false,0.0004,false,0.0004,false,0.0004,true,1.0,true,0.9988,false,0.0
+121,incorrect,Houston teens vape lung issues,5,5,5,true,1.0,true,1.0,false,0.0,false,0.0,true,1.0,true,1.0,true,1.0
+122,ambiguous,Trump coronavirus drug not approved,5,5,5,true,0.7311,true,0.6795,false,0.0001,false,0.0001,true,0.9526,false,0.0143,true,0.971
+123,incorrect,Uruguay cannabis medical marijuana global market ambitions,0,5,5,true,1.0,true,1.0,false,0.0,false,0.0,true,1.0,true,1.0,true,0.9933
+124,ambiguous,World Flu Pandemic WHO,5,5,5,true,0.9999,true,1.0,true,0.9968,true,0.9968,true,0.9981,true,0.9998,true,1.0
+125,correct,Coronavirus US churches EasterSundayServices,5,5,5,false,0.0,false,0.0007,false,0.0007,false,0.0007,true,0.9996,true,0.6224,true,1.0
+126,incorrect,HeadStart investment economy回报,5,5,5,true,0.9998,true,0.9707,false,0.011,false,0.0,true,0.9998,true,0.9998,false,0.0052
+127,correct,Zambia coronavirus death record,5,5,5,true,0.9706,false,0.0231,false,0.0231,false,0.0231,false,0.06,true,0.8808,true,1.0
+128,incorrect,Hospital closings Rust Belt,5,5,5,true,1.0,true,1.0,false,0.0005,false,0.0001,true,1.0,true,1.0,false,0.0
+129,ambiguous,Swiss police healer HIV infection arrests,5,5,5,true,0.9998,true,1.0,false,0.2689,false,0.2689,true,1.0,true,1.0,true,1.0
+130,incorrect,Nestle Alfamino infant formula recall Germany,5,5,5,false,0.2689,true,0.9988,false,0.0004,false,0.0,false,0.2689,false,0.0025,true,1.0
+131,incorrect,Missouri bugborne diseases physicians warn,2,5,5,true,1.0,true,1.0,false,0.0,false,0.0,true,1.0,true,0.9997,false,0.0759
+132,correct,Cystic Fibrosis Drug Breathing Relief Trials,5,5,5,true,0.9859,true,0.9994,true,0.9994,true,0.9994,true,1.0,true,1.0,false,0.0
+133,ambiguous,Pelosi Medicare negotiation drug prices,5,5,5,true,0.9523,true,0.9999,false,0.0,false,0.0,true,1.0,true,0.9985,true,1.0
+134,incorrect,J&J talc cancer NJ verdict,5,5,5,false,0.0,true,0.9997,false,0.0,false,0.0,false,0.0,false,0.0,true,1.0
+135,incorrect,Lawmakers fast furious session,5,5,5,true,0.9999,true,0.9981,false,0.0,false,0.0,true,0.9999,false,0.0001,false,0.0
+136,correct,Colon Cancer Recurrence Prediction Test,5,5,5,true,0.9916,false,0.0,false,0.0,false,0.0,true,1.0,true,1.0,false,0.0011
+137,incorrect,Colorado assisted living license suspended,3,5,5,true,1.0,true,1.0,false,0.0,false,0.0,true,1.0,true,1.0,true,1.0
+138,incorrect,NASA twins study genetic frontier,5,5,5,true,0.9998,true,1.0,false,0.0001,false,0.0,true,0.9998,true,0.9997,false,0.0001
+139,incorrect,Barack Obama Illinois Legislature abortion rights votes present,3,5,5,true,0.8168,false,0.0,false,0.0,false,0.0,true,0.8168,true,0.8366,false,0.0
+140,incorrect,U.S._headquartered_cruise_lines ships registration foreign_countries,5,5,5,true,0.9999,true,1.0,false,0.0,false,0.0,true,0.9999,true,1.0,true,0.5871
+141,incorrect,HealthcareSystems $5MEmergencies preparation,2,5,5,false,0.0,true,1.0,false,0.0,false,0.0,false,0.0,false,0.0,true,1.0
+142,incorrect,retirements opioid crisis firms critical moment,0,5,5,false,0.018,false,0.0003,false,0.0,false,0.0,false,0.018,false,0.018,false,0.0
+143,ambiguous,New Mexico land boss border wall concerns,4,5,5,true,0.9526,true,0.9399,false,0.0,false,0.0,true,0.9999,true,0.9769,false,0.0111
+144,incorrect,"U.S. bishop 
+Hepatitis 
+Communion 
+Catholics",3,5,5,true,0.9859,true,0.9968,false,0.0,false,0.0,true,0.9859,false,0.0003,true,0.9985
+145,incorrect,Arizona State Senate Bobby Wilson fatally-shot-mother 1963,1,5,5,true,0.9974,true,1.0,false,0.0,false,0.0,true,0.9974,true,0.775,false,0.0
+146,incorrect,Group behavioral care access improvement launch,4,5,5,true,0.9959,true,0.9991,false,0.0,false,0.0114,true,0.9959,true,0.977,true,1.0
+147,ambiguous,Hillary Rosen Chris Christie Planned Parenthood veto governorship,5,5,2,false,0.0,false,0.0001,false,0.0,false,0.0,false,0.0759,false,0.0086,false,0.0
+148,ambiguous,California HIV criminalization repeal,5,5,5,true,0.9959,true,1.0,false,0.2234,false,0.2234,true,1.0,true,0.989,false,0.0069
+149,incorrect,Pakistan psychologists conflict health warning,4,5,5,true,1.0,true,1.0,false,0.0,false,0.0,true,1.0,true,0.9948,false,0.0
+150,ambiguous,Boy rare-disease gene-therapy new-skin,5,5,5,true,1.0,true,1.0,true,0.6881,true,0.6881,true,1.0,true,1.0,true,1.0
+151,incorrect,Folic acid grades teens Swedish,3,5,5,true,1.0,true,1.0,false,0.0,false,0.0,true,1.0,true,1.0,true,0.6793
+152,incorrect,Georgia Gov Brian Kemp mansion tours covid-19,5,5,5,false,0.023,true,0.9959,false,0.0003,false,0.0,false,0.023,false,0.0001,false,0.0041
+153,incorrect,Taiwan carrot stick approach virus fight praises strains show,2,5,5,false,0.0003,false,0.0373,false,0.0,false,0.0,false,0.0003,false,0.0,false,0.0
+154,incorrect,Lockdown Wuhan China lockdown sick,5,5,5,true,0.8519,true,1.0,false,0.0,false,0.0373,true,0.8519,true,0.8519,false,0.0
+155,incorrect,Asia-Pacific hunger,2,5,5,true,0.8803,true,1.0,false,0.0002,false,0.0,true,0.8803,false,0.4375,true,0.9999
+156,ambiguous,chemo side effects treatment efficacy chemotherapy patients,4,5,5,false,0.0004,false,0.0002,false,0.0,false,0.0,false,0.0,false,0.0,true,0.9525
+157,incorrect,Elon Musk tweets science choice,3,5,5,true,1.0,true,1.0,false,0.0,false,0.0,true,1.0,false,0.1824,true,0.9999
+158,incorrect,President Trump October Surprise positive test result,5,5,3,false,0.0,true,0.8805,false,0.0,false,0.0,false,0.0,false,0.0,true,0.9768
+159,incorrect,Indiana city animal health business jeopardy,1,5,5,true,0.9526,true,0.9993,false,0.0,false,0.0,true,0.9526,true,0.852,false,0.0025
+160,incorrect,Arch Baal NationalMall WashingtonDc,5,5,5,false,0.0,false,0.0,false,0.0,false,0.0,false,0.0,false,0.0,false,0.0
+161,incorrect,Pokemon Go Niantic Harry Potter augmented reality game,1,5,5,true,0.8519,true,0.9975,false,0.0,false,0.0,true,0.8519,true,0.8518,false,0.0
+162,ambiguous,Trio Nobel chemistry antibodies enzymes,5,5,5,true,0.9239,true,0.6784,true,0.9769,true,0.9769,false,0.0,false,0.1477,false,0.0
+163,incorrect,Doctors protest flu vaccines migrants,2,5,5,false,0.0,true,1.0,false,0.0,false,0.0,false,0.0,false,0.0,false,0.0019
+164,incorrect,ChanceTheRapper 1M MentalHealthServices Boost,5,5,5,true,1.0,true,1.0,false,0.0,false,0.0,true,1.0,true,1.0,true,1.0
+165,ambiguous,Cream squamous cell carcinoma clinical trial,5,5,5,false,0.0,true,1.0,false,0.0,false,0.0,false,0.0,false,0.0,true,1.0
+166,incorrect,Rihanna Snapchat Instagram share price fall,0,5,5,false,0.0,true,0.9999,false,0.0,false,0.0,false,0.0,false,0.0,true,0.989
+167,incorrect,HeartDevice deathRate reduction,2,5,5,true,0.9997,true,1.0,false,0.0006,true,0.9708,true,0.9997,true,0.9061,false,0.0
+168,incorrect,AnneFrank refugeeStatus US denial,3,5,5,true,0.9999,true,1.0,false,0.0759,false,0.0,true,0.9999,true,0.9997,true,0.7771
+169,incorrect,Fitness experts folklore fact,1,5,5,true,1.0,true,1.0,true,1.0,false,0.0,true,1.0,true,1.0,false,0.0953
+170,incorrect,Iran 1979 extremism revolution shah theocracy,3,5,5,true,0.6791,false,0.0002,false,0.0,false,0.0,true,0.6791,false,0.4999,true,0.9985
+171,incorrect,Dr_Fauci_pandemic_2017_trump,5,5,5,true,0.6225,true,0.7304,false,0.0,false,0.0,true,0.6225,true,0.9998,false,0.0
+172,incorrect,Women hormone therapy quit cancer risk,5,5,5,true,0.8519,true,0.9997,true,0.7311,false,0.0474,true,0.8519,true,0.6792,true,0.852
+173,incorrect,Products testosterone claims healthy skeptic,2,5,5,true,0.9976,true,0.9997,false,0.0,false,0.0,true,0.9976,true,0.982,false,0.0
+174,incorrect,Humira eye inflammation non-steroid alternative,4,5,5,true,1.0,true,1.0,true,0.9399,false,0.0001,true,1.0,true,1.0,true,0.9997
+175,incorrect,Wisconsin workers Minnesota income gap ScottWalker policies,2,5,5,false,0.0,false,0.0086,false,0.0,false,0.0,false,0.0,false,0.0,true,0.8175
+176,incorrect,O'Rourke bluevision texas Nelson show,1,5,5,true,0.924,true,0.9999,false,0.0,false,0.0,true,0.924,false,0.0,false,0.0009
+177,incorrect,China population growth technology,5,5,5,false,0.0,false,0.0,false,0.0,false,0.0006,false,0.0,false,0.011,true,0.9526
+178,ambiguous,Washington state coal export terminal plans,5,5,5,true,0.8175,true,1.0,false,0.0,false,0.0,true,1.0,true,0.9859,false,0.4425
+179,ambiguous,Africa malaria children deaths分钟,5,5,5,false,0.011,false,0.5,false,0.0,false,0.0,false,0.4999,false,0.0004,false,0.0
+180,incorrect,Indiana University mold residence quadrangle cleaning,4,5,5,true,1.0,true,1.0,false,0.0,false,0.0,true,1.0,true,1.0,true,1.0
+181,incorrect,"Lamont  
+public  
+health  
+insurance  
+agency  
+jobs",2,5,5,false,0.0,false,0.0,false,0.0,false,0.0,false,0.0,false,0.0,true,0.9999
+182,incorrect,Women Stage4BreastCancer surgery survival,4,5,5,false,0.0,true,0.9914,false,0.0,false,0.0,false,0.0,false,0.0,false,0.0
+183,correct,FDA irritable bowel drug approval,5,5,5,true,0.982,true,0.9244,true,0.9244,true,0.9244,true,0.982,true,0.9527,true,1.0
+184,incorrect,FDA insulin pump problems caution,5,5,5,true,0.9999,true,0.9993,false,0.0006,false,0.0041,true,0.9999,true,0.852,true,0.9934
+185,ambiguous,Ground beef E coli recall tons,5,5,5,false,0.0953,true,0.9991,false,0.0,false,0.0,false,0.0002,false,0.0,true,0.562
+186,incorrect,Black White Caterpillars Allergic Reactions Touch People,2,5,5,false,0.023,true,0.5,false,0.0,false,0.0,false,0.023,false,0.0001,true,1.0
+187,correct,Measles outbreak Madagascar deaths,5,5,5,true,1.0,true,1.0,true,1.0,true,1.0,true,0.6792,true,1.0,true,1.0
+188,incorrect,Hillary Clinton BernieSanders Libya regimechange,5,5,5,true,0.9968,false,0.0601,false,0.0,false,0.0,true,0.9968,false,0.3775,false,0.3775
+189,incorrect,virus pandemic US preparation months wasted,5,5,5,true,1.0,true,1.0,false,0.0,false,0.0,true,1.0,false,0.1482,false,0.1829
+190,incorrect,Canada coronavirus crisis death-toll,5,5,5,false,0.0,true,1.0,false,0.0,false,0.0,false,0.0,false,0.0,true,1.0
+191,incorrect,Ebola Congo president skepticism rumors,4,5,5,true,1.0,true,1.0,true,0.9997,false,0.0,true,1.0,true,1.0,true,1.0
+192,incorrect,U.S. Panel Prostate Screening Questions,5,5,5,true,0.9998,true,0.9998,false,0.0766,true,0.9998,true,0.9998,true,0.9995,true,1.0
+193,ambiguous,"Debt  
+National Economy  
+Eclipse  
+Spendings  
+Economic Crisis",4,5,5,false,0.148,true,0.8808,false,0.0086,false,0.0086,false,0.1192,false,0.1829,false,0.0003
+194,incorrect,ring-tailed lemurs stink flirting scent communication,5,5,5,true,1.0,true,1.0,false,0.0601,true,0.9046,true,1.0,true,1.0,true,1.0
+195,incorrect,French foie gras bird flu Europe spread concerns,5,5,5,true,1.0,true,1.0,true,0.6792,false,0.27,true,1.0,true,1.0,true,1.0
+196,incorrect,North Carolina fair mist fans health measure,4,5,5,true,1.0,true,1.0,false,0.0,false,0.0,true,1.0,true,1.0,true,1.0
+197,incorrect,Influenza Maine counties widespread pandemic,2,5,5,true,1.0,true,1.0,false,0.0,false,0.0,true,1.0,true,0.9948,true,1.0
+198,incorrect,Medicare cancer cost 5-year study bill $21.1bn,2,5,5,false,0.0,true,0.9999,false,0.0,false,0.0,false,0.0,false,0.0,true,0.9948
+199,incorrect,Estrogen BreastCancer HeartAttack Risk Reduction Women,4,5,5,false,0.011,true,0.9385,false,0.0479,false,0.0,false,0.011,false,0.0012,false,0.0
