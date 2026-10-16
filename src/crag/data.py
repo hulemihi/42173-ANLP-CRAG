@@ -4,7 +4,11 @@ Dataset loading shared by every stage.
 - PubMedQA (PQA-L): trains the retrieval evaluator only.
 - PubHealth: test set for the full pipeline (true / false health claims, as in the CRAG paper).
 - MedRAG Textbooks: retrieval corpus (18 medical textbooks, no overlap with PubMedQA).
+- MedRAG Wikipedia, health articles only: retrieval corpus, built by scripts/build_wikipedia_corpus.py.
 """
+
+import json
+from pathlib import Path
 
 import pandas as pd
 from datasets import load_dataset
@@ -12,6 +16,7 @@ from datasets import load_dataset
 PUBHEALTH_NAME = "ImperialCollegeLondon/health_fact"
 PUBHEALTH_LABELS = {0: "false", 1: "mixture", 2: "true", 3: "unproven"}
 TEXTBOOKS_NAME = "MedRAG/textbooks"
+WIKIPEDIA_HEALTH_DIR = Path(__file__).resolve().parents[2] / "data" / "wikipedia_health"
 
 DATASET_NAME = "qiaojin/PubMedQA"
 PQA_LABELED = "pqa_labeled"
@@ -87,3 +92,17 @@ def load_textbooks_corpus():
     """
     ds = load_dataset(TEXTBOOKS_NAME, revision="refs/convert/parquet", split="train")
     return [c for c in ds["content"] if c and c.strip()]
+
+
+def load_wikipedia_health_corpus(corpus_dir=WIKIPEDIA_HEALTH_DIR):
+    """
+    Load the health-filtered Wikipedia corpus as a list of passage strings ("Title. snippet text").
+    """
+    parts = sorted(Path(corpus_dir).glob("*.jsonl"))
+    if not parts:
+        raise FileNotFoundError(f"no corpus in {corpus_dir}, run scripts/build_wikipedia_corpus.py")
+    passages = []
+    for part in parts:
+        with open(part, encoding="utf-8") as f:
+            passages += [json.loads(line)["contents"] for line in f]
+    return passages

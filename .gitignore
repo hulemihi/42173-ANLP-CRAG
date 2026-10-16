@@ -153,6 +153,9 @@ activemq-data/
 .env
 .envrc
 indexes/web_search_cache.json
+data/wikipedia_health/
+indexes/contriever-msmarco_wikipedia_health.pt
+indexes/wikipedia_health_shards/
 .venv
 env/
 venv/

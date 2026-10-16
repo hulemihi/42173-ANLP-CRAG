@@ -5,15 +5,15 @@ Action trigger: map evaluator scores to a CRAG action.
 - INCORRECT: all passages score below LOWER         -> discard them, use web search
 - AMBIGUOUS: otherwise                              -> combine refined passages + web search
 
-TODO: tune UPPER / LOWER on evaluator scores of real retrieved passages.
+UPPER / LOWER tuned on PubHealth validation claims with the Wikipedia corpus.
 """
 
 CORRECT = "correct"
 INCORRECT = "incorrect"
 AMBIGUOUS = "ambiguous"
 
-UPPER = 0.5   # placeholder
-LOWER = -0.5  # placeholder
+UPPER = 0.91
+LOWER = 0.90
 
 
 def decide_action(scores, upper=UPPER, lower=LOWER):

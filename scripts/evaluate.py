@@ -6,6 +6,7 @@ Evaluate no-retrieval, standard RAG and (with --crag) CRAG on a fixed PubHealth 
     python scripts/evaluate.py --crag           # also run CRAG (needs the actions / refinement / web_search stages)
     python scripts/evaluate.py --n 50 --examples 5
     python scripts/evaluate.py --claim "Vitamin C cures the common cold."
+    python scripts/evaluate.py --corpus textbooks  # default is health-filtered Wikipedia
 
 Prints accuracy for each setting, shows a few full responses, and saves per-claim results to results/.
 """
@@ -21,7 +22,7 @@ from tqdm.auto import tqdm
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "src"))
 
-from crag.data import load_pubhealth, load_textbooks_corpus  # noqa: E402
+from crag.data import load_pubhealth, load_textbooks_corpus, load_wikipedia_health_corpus  # noqa: E402
 from crag.generator import predict_label, load_generator  # noqa: E402
 from crag.evaluator import load_evaluator  # noqa: E402
 from crag.pipeline import check_crag_ready, run_crag, run_rag  # noqa: E402
@@ -32,7 +33,10 @@ MODELS = {
     "3b": dict(model_name="Qwen/Qwen2.5-3B-Instruct"),
     "7b": dict(model_name="Qwen/Qwen2.5-7B-Instruct", load_in_4bit=True),
 }
-INDEX_PATH = ROOT / "indexes" / "contriever-msmarco_textbooks.pt"
+CORPORA = {
+    "textbooks": (load_textbooks_corpus, ROOT / "indexes" / "contriever-msmarco_textbooks.pt"),
+    "wikipedia": (load_wikipedia_health_corpus, ROOT / "indexes" / "contriever-msmarco_wikipedia_health.pt"),
+}
 
 
 def show(claim, gold, index, model, tokenizer, k):
@@ -52,6 +56,7 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--n", type=int, default=200, help="number of PubHealth test claims (stratified, fixed seed)")
     parser.add_argument("--model", choices=MODELS, default="3b")
+    parser.add_argument("--corpus", choices=CORPORA, default="wikipedia", help="retrieval corpus")
     parser.add_argument("--k", type=int, default=5, help="passages retrieved per claim")
     parser.add_argument("--examples", type=int, default=3, help="claims to show with a full RAG response")
     parser.add_argument("--claim", action="append", help="answer your own claim instead (repeat for several)")
@@ -64,7 +69,8 @@ def main():
             print("CRAG is not available yet:\n" + "\n".join(f"  - {p}" for p in problems))
             sys.exit(1)
 
-    index = build_index(load_textbooks_corpus(), cache_path=INDEX_PATH)
+    load_corpus, index_path = CORPORA[args.corpus]
+    index = build_index(load_corpus(), cache_path=index_path)
     model, tokenizer = load_generator(**MODELS[args.model])
 
     if args.claim:
@@ -92,6 +98,7 @@ def main():
     elapsed = time.time() - start
 
     print(f"\n{len(results)} claims ({claims.label.value_counts().to_dict()}), model {args.model}, "
+          f"corpus {args.corpus}, "
           f"{elapsed:.0f}s ({elapsed / len(results):.2f}s per claim)")
     print(f"  always 'true'   accuracy = {(results.gold == 'true').mean():.3f}")
     settings = ("no_retrieval", "rag", "crag") if args.crag else ("no_retrieval", "rag")
@@ -105,7 +112,7 @@ def main():
 
     out_dir = ROOT / "results"
     out_dir.mkdir(exist_ok=True)
-    path = out_dir / f"{'crag' if args.crag else 'rag'}_pubhealth_n{args.n}_{args.model}.csv"
+    path = out_dir / f"{'crag' if args.crag else 'rag'}_pubhealth_n{args.n}_{args.model}_{args.corpus}.csv"
     results.to_csv(path, index=False)
     print(f"\nSaved per-claim results to {path.relative_to(ROOT)}")
 
