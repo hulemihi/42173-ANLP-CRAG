@@ -1,0 +1,274 @@
+{
+  "generator": "Qwen/Qwen2.5-3B-Instruct",
+  "device": "cpu",
+  "dtype": "torch.float32",
+  "claims": 200,
+  "k": 5,
+  "thresholds": {
+    "upper": 0.5,
+    "lower": -0.5
+  },
+  "web_search": "PubMed only",
+  "always_true_accuracy": 0.605,
+  "main": {
+    "No retrieval": {
+      "accuracy": 0.42,
+      "ci_low": 0.35,
+      "ci_high": 0.485,
+      "macro_f1": 0.3491,
+      "balanced_accuracy": 0.5119,
+      "auroc_p_true": 0.568,
+      "predicted_true": 13.0,
+      "mean_p_true": 0.0701,
+      "seconds_per_claim": 1.5449
+    },
+    "Standard RAG": {
+      "accuracy": 0.415,
+      "ci_low": 0.3499,
+      "ci_high": 0.485,
+      "macro_f1": 0.341,
+      "balanced_accuracy": 0.5077,
+      "auroc_p_true": 0.5233,
+      "predicted_true": 12.0,
+      "mean_p_true": 0.0594,
+      "seconds_per_claim": 16.0223
+    },
+    "CRAG": {
+      "accuracy": 0.42,
+      "ci_low": 0.35,
+      "ci_high": 0.485,
+      "macro_f1": 0.3538,
+      "balanced_accuracy": 0.5097,
+      "auroc_p_true": 0.5231,
+      "predicted_true": 15.0,
+      "mean_p_true": 0.0718,
+      "seconds_per_claim": 8.4732
+    }
+  },
+  "paired": [
+    {
+      "comparison": "CRAG vs Standard RAG",
+      "difference": 0.005,
+      "ci_low": -0.02,
+      "ci_high": 0.03,
+      "only first right": 4,
+      "only second right": 3,
+      "p_value": 1.0,
+      "significant": "no"
+    },
+    {
+      "comparison": "Standard RAG vs No retrieval",
+      "difference": -0.005,
+      "ci_low": -0.04,
+      "ci_high": 0.035,
+      "only first right": 7,
+      "only second right": 8,
+      "p_value": 1.0,
+      "significant": "no"
+    },
+    {
+      "comparison": "CRAG vs No retrieval",
+      "difference": 0.0,
+      "ci_low": -0.04,
+      "ci_high": 0.035,
+      "only first right": 7,
+      "only second right": 7,
+      "p_value": 1.0,
+      "significant": "no"
+    }
+  ],
+  "by_crag_action": {
+    "correct": {
+      "claims": 115,
+      "true_claims": 79,
+      "no_retrieval": 0.3478,
+      "rag": 0.3478,
+      "crag": 0.3478,
+      "mean_max_score": 0.8303,
+      "web_results": 0,
+      "no_knowledge": 9,
+      "mean_words": 148.5478
+    },
+    "ambiguous": {
+      "claims": 34,
+      "true_claims": 17,
+      "no_retrieval": 0.5,
+      "rag": 0.5,
+      "crag": 0.5,
+      "mean_max_score": -0.0014,
+      "web_results": 6,
+      "no_knowledge": 17,
+      "mean_words": 152.5294
+    },
+    "incorrect": {
+      "claims": 51,
+      "true_claims": 25,
+      "no_retrieval": 0.5294,
+      "rag": 0.5098,
+      "crag": 0.5294,
+      "mean_max_score": -0.8181,
+      "web_results": 5,
+      "no_knowledge": 46,
+      "mean_words": 47.0784
+    }
+  },
+  "evidence": {
+    "CRAG": {
+      "sentences": 7.7874,
+      "mean_score": -0.1431,
+      "share_relevant": 0.4406,
+      "closeness_to_explanation": 0.533,
+      "claims_with_no_knowledge": 72
+    },
+    "Standard RAG": {
+      "sentences": 28.64,
+      "mean_score": -0.6783,
+      "share_relevant": 0.0881,
+      "closeness_to_explanation": 0.4999,
+      "claims_with_no_knowledge": 0
+    }
+  },
+  "separation": {
+    "T5 retrieval evaluator (CRAG)": {
+      "pairs": 200.0,
+      "correctly separated": 0.925,
+      "mean gold score": 0.471,
+      "mean wrong score": -0.8539
+    },
+    "Contriever similarity (standard RAG)": {
+      "pairs": 200.0,
+      "correctly separated": 0.97,
+      "mean gold score": 1.7573,
+      "mean wrong score": 0.6902
+    }
+  },
+  "ablations": {
+    "No retrieval": {
+      "accuracy": 0.42,
+      "ci_low": 0.35,
+      "ci_high": 0.485,
+      "vs CRAG": 0.0,
+      "macro_f1": 0.3491,
+      "balanced_accuracy": 0.5119,
+      "auroc_p_true": 0.568,
+      "predicted_true": 13.0,
+      "mean_p_true": 0.0701
+    },
+    "Standard RAG": {
+      "accuracy": 0.415,
+      "ci_low": 0.3499,
+      "ci_high": 0.485,
+      "vs CRAG": -0.005,
+      "macro_f1": 0.341,
+      "balanced_accuracy": 0.5077,
+      "auroc_p_true": 0.5233,
+      "predicted_true": 12.0,
+      "mean_p_true": 0.0594
+    },
+    "CRAG": {
+      "accuracy": 0.42,
+      "ci_low": 0.35,
+      "ci_high": 0.485,
+      "vs CRAG": 0.0,
+      "macro_f1": 0.3538,
+      "balanced_accuracy": 0.5097,
+      "auroc_p_true": 0.5231,
+      "predicted_true": 15.0,
+      "mean_p_true": 0.0718
+    },
+    "CRAG w/o refinement": {
+      "accuracy": 0.42,
+      "ci_low": 0.355,
+      "ci_high": 0.49,
+      "vs CRAG": 0.0,
+      "macro_f1": 0.3491,
+      "balanced_accuracy": 0.5119,
+      "auroc_p_true": 0.5252,
+      "predicted_true": 13.0,
+      "mean_p_true": 0.0665
+    },
+    "CRAG w/o query rewriting": {
+      "accuracy": 0.42,
+      "ci_low": 0.35,
+      "ci_high": 0.485,
+      "vs CRAG": 0.0,
+      "macro_f1": 0.3538,
+      "balanced_accuracy": 0.5097,
+      "auroc_p_true": 0.5267,
+      "predicted_true": 15.0,
+      "mean_p_true": 0.0719
+    },
+    "CRAG w/o web search": {
+      "accuracy": 0.42,
+      "ci_low": 0.35,
+      "ci_high": 0.485,
+      "vs CRAG": 0.0,
+      "macro_f1": 0.3538,
+      "balanced_accuracy": 0.5097,
+      "auroc_p_true": 0.5267,
+      "predicted_true": 15.0,
+      "mean_p_true": 0.0719
+    },
+    "CRAG with back-off search": {
+      "accuracy": 0.41,
+      "ci_low": 0.34,
+      "ci_high": 0.475,
+      "vs CRAG": -0.01,
+      "macro_f1": 0.3427,
+      "balanced_accuracy": 0.4992,
+      "auroc_p_true": 0.5137,
+      "predicted_true": 15.0,
+      "mean_p_true": 0.0695
+    },
+    "Correct for every claim": {
+      "accuracy": 0.42,
+      "ci_low": 0.35,
+      "ci_high": 0.485,
+      "vs CRAG": 0.0,
+      "macro_f1": 0.3538,
+      "balanced_accuracy": 0.5097,
+      "auroc_p_true": 0.5267,
+      "predicted_true": 15.0,
+      "mean_p_true": 0.0719
+    },
+    "Incorrect for every claim": {
+      "accuracy": 0.44,
+      "ci_low": 0.375,
+      "ci_high": 0.505,
+      "vs CRAG": 0.02,
+      "macro_f1": 0.3886,
+      "balanced_accuracy": 0.524,
+      "auroc_p_true": 0.5342,
+      "predicted_true": 21.0,
+      "mean_p_true": 0.109
+    },
+    "Ambiguous for every claim": {
+      "accuracy": 0.425,
+      "ci_low": 0.355,
+      "ci_high": 0.49,
+      "vs CRAG": 0.005,
+      "macro_f1": 0.3742,
+      "balanced_accuracy": 0.5072,
+      "auroc_p_true": 0.5211,
+      "predicted_true": 22.0,
+      "mean_p_true": 0.1054
+    },
+    "Oracle context": {
+      "accuracy": 0.69,
+      "ci_low": 0.625,
+      "ci_high": 0.755,
+      "vs CRAG": 0.27,
+      "macro_f1": 0.6885,
+      "balanced_accuracy": 0.7372,
+      "auroc_p_true": 0.8305,
+      "predicted_true": 65.0,
+      "mean_p_true": 0.33
+    }
+  },
+  "thresholds_grid": {
+    "current": 0.42,
+    "best_upper": -0.5,
+    "best_lower": -1.0,
+    "best": 0.42
+  }
+}
